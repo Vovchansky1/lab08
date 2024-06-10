@@ -18,5 +18,5 @@ void Account::Lock() {
   if (is_locked_) throw std::runtime_error("already locked");
   is_locked_ = true;
 }
-
+bool operator==(const Account el1, const Account el2) {return (el1.id_ == el2.id_);}
 void Account::Unlock() { is_locked_ = false; }
