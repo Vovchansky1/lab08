@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: artifact
-          path: /home/runner/work/laba8/laba8/log.txt
+          path: /home/runner/work/lab08/lab08/log.txt
